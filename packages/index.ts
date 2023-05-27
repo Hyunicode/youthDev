@@ -9,11 +9,13 @@ import { App, Plugin } from 'vue';
 
 import { FooPlugin } from './Foo';
 import { ButtonPlugin } from './Button';
+import { RadioPlugin } from './Radio';
 
 const yKitPlugin: Plugin = {
   install(app: App) {
     FooPlugin.install?.(app);
     ButtonPlugin.install?.(app);
+    RadioPlugin.install?.(app);
   },
 };
 
@@ -21,3 +23,4 @@ export default yKitPlugin;
 
 export * from './Foo'
 export * from './Button'
+export * from './Radio'
