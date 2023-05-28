@@ -1,3 +1,5 @@
+// eslint-disable prettier/prettier
+
 /**
  * !--------- FBI WARNING ----------!
  *
@@ -8,16 +10,28 @@ import { createRouter, createWebHashHistory, RouterOptions } from 'vue-router';
 
 const routes = [
   {
+    title: '测试组件',
+    name: 'Foo',
+    path: '/components/Foo',
+    component: () => import('packages/Foo/docs/README.md'),
+  },
+  {
     title: '按钮',
     name: 'Button',
     path: '/components/Button',
     component: () => import('packages/Button/docs/README.md'),
   },
   {
-    title: '测试组件',
-    name: 'Foo',
-    path: '/components/Foo',
-    component: () => import('packages/Foo/docs/README.md'),
+    title: '单选框',
+    name: 'Radio',
+    path: '/components/Radio',
+    component: () => import('packages/Radio/docs/README.md'),
+  },
+  {
+    title: '对话框',
+    name: 'Dialog',
+    path: '/components/Dialog',
+    component: () => import('packages/Dialog/docs/README.md'),
   },
 ];
 

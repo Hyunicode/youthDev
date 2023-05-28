@@ -4,5 +4,23 @@
     "compZhName": "测试组件",
     "compDesc": "默认：这是一个新组件",
     "compClassName": "foo"
+  },
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "button"
+  },
+  {
+    "compName": "Radio",
+    "compZhName": "单选框",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "radio"
+  },
+  {
+    "compName": "Dialog",
+    "compZhName": "对话框",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "dialog"
   }
 ]
