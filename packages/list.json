@@ -16,5 +16,11 @@
     "compZhName": "单选框",
     "compDesc": "默认：这是一个新组件",
     "compClassName": "radio"
+  },
+  {
+    "compName": "Dialog",
+    "compZhName": "对话框",
+    "compDesc": "默认：这是一个新组件",
+    "compClassName": "dialog"
   }
 ]

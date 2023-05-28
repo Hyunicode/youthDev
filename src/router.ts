@@ -27,6 +27,12 @@ const routes = [
     path: '/components/Radio',
     component: () => import('packages/Radio/docs/README.md'),
   },
+  {
+    title: '对话框',
+    name: 'Dialog',
+    path: '/components/Dialog',
+    component: () => import('packages/Dialog/docs/README.md'),
+  },
 ];
 
 const routerConfig = {
